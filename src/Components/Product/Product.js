@@ -1,12 +1,12 @@
-// Product.js
-import React, { Product } from 'react';
+import React from "react";
 
-class Product extends Product {
-  render() {
-    return (
-      <div>This is my Product.</div>
-    );
-  }
+const Product = () => {
+  return (
+    <div>
+      <h1>Product</h1>
+    </div>
+  );
+
 }
 
 export default Product;
